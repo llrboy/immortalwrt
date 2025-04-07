@@ -1,5 +1,7 @@
 云编译x86固件
 
+https://github.com/immortalwrt/immortalwrt
+
 immortalwrt24.10源码编译路由器固件。
 
 包含：openclash插件
