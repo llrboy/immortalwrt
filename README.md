@@ -1,8 +1,6 @@
-云编译MT798x固件
+云编译x86固件
 
-https://github.com/padavanonly/immortalwrt-mt798x-24.10
-
-237大佬immortalwrt24.10源码编译路由器固件。
+immortalwrt24.10源码编译路由器固件。
 
 包含：openclash插件
 
