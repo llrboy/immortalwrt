@@ -15,7 +15,7 @@
 
 # Add a feed source
 echo 'src-git lucky https://github.com/gdy666/luci-app-lucky' >>feeds.conf.default
-sed -i 's src-git luci https://github.com/kilge/luci.git;openwrt-24.10' feeds.conf.default
+sed -i 's|src-git luci https://github.com/immortalwrt/luci.git;openwrt-24.10|src-git luci https://github.com/kilge/luci.git|' feeds.conf.default
 # echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 # echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 # echo 'src-git passwall_packages https://github.com/xiaorouji/openwrt-passwall-packages' >>feeds.conf.default
