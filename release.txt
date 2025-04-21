@@ -1,4 +1,0 @@
-immortalwrt-24.10源码编译x86固件
-包含插件：openclash
-默认IP地址：192.168.100.1
-密码：password
