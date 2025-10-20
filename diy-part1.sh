@@ -14,6 +14,6 @@
 # sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # 下载插件
-svn co https://github.com/kissyouhunter/openwrt-packages/trunk/luci-app-poweroff feeds/luci/luci-app-poweroff
+svn co https://github.com/kissyouhunter/openwrt-packages/trunk/luci-app-poweroff feeds/luci/applications/luci-app-poweroff
 
-git clone https://github.com/DongyangHu/luci-app-poweroff.git feeds/luci/luci-app-poweroff
+git clone https://github.com/DongyangHu/luci-app-poweroff.git feeds/luci/applications/luci-app-poweroff
