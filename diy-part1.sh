@@ -22,6 +22,6 @@
 
 # git clone https://github.com/gngpp/luci-theme-design.git  package/luci-theme-design
 
-git clone https://github.com/afala2020/luci-app-accesscontrol.git  package/luci-app-accesscontrol
+git clone https://github.com/janvanstiphout/luci-app-accesscontrol.git feeds/luci/applications/luci-app-accesscontrol
 
 # echo 'src-git accesscontrol https://github.com/janvanstiphout/luci-app-accesscontrol' >>feeds.conf.default
