@@ -20,8 +20,8 @@
 # echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 # echo 'src-git passwall_packages https://github.com/xiaorouji/openwrt-passwall-packages' >>feeds.conf.default
 
-git clone https://github.com/gngpp/luci-theme-design.git  package/luci-theme-design
+# git clone https://github.com/gngpp/luci-theme-design.git  package/luci-theme-design
 
-# git clone https://github.com/janvanstiphout/luci-app-accesscontrol.git  package/luci-app-accesscontrol
+git clone https://github.com/janvanstiphout/luci-app-accesscontrol.git  package/luci-app-accesscontrol
 
 # echo 'src-git accesscontrol https://github.com/janvanstiphout/luci-app-accesscontrol' >>feeds.conf.default
