@@ -25,7 +25,7 @@
 git clone https://github.com/janvanstiphout/luci-app-accesscontrol.git feeds/luci/applications/luci-app-accesscontrol
 
 # 添加 onliner 插件
-git clone https://github.com/nhhqgirl/luci-app-onliner.git package/lean/luci-app-onliner
+git clone https://github.com/nhhqgirl/luci-app-onliner.git feeds/luci/applications/luci-app-onliner
 
 # 添加 PowerOff 插件
-git clone https://github.com/nhhqgirl/luci-app-poweroff.git package/lean/luci-app-poweroff
+git clone https://github.com/nhhqgirl/luci-app-poweroff.git feeds/luci/applications/luci-app-poweroff
