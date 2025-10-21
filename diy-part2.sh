@@ -14,7 +14,7 @@
 sed -i 's/192.168.1.1/192.168.81.1/g' package/base-files/files/bin/config_generate
 
 # Modify default theme
-sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
+sed -i 's/luci-theme-bootstrap/luci-theme-design/g' feeds/luci/collections/luci/Makefile
 
 # Modify hostname
 #sed -i "s/hostname='ImmortalWrt'/hostname='ImmortalWrt'/g" package/base-files/files/bin/config_generate
@@ -22,6 +22,4 @@ sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/M
 # Modify filename, add date prefix
 sed -i 's/IMG_PREFIX:=/IMG_PREFIX:=$(shell date +"%Y%m%d")-/1' include/image.mk
 
-#nlbwmon  网络带宽监视器
 
-sed -i 's/"admin", "nlbw"/"admin", "network", "nlbw"/g' ./feeds/luci/applications/luci-app-nlbwmon/luasrc/controller/*.lua
