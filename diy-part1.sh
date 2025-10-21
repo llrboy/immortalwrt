@@ -14,9 +14,9 @@
 # sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # 下载插件
-git clone https://github.com/aige168/luci-app-accesscontrol feeds/luci/applications/luci-app-accesscontrol
+git clone https://github.com/aige168/luci-app-accesscontrol.git package/luci-app-accesscontrol
 
-git clone https://github.com/DongyangHu/luci-app-poweroff.git feeds/luci/applications/luci-app-poweroff
+git clone https://github.com/DongyangHu/luci-app-poweroff.git package/luci-app-poweroff
 
-git clone https://github.com/nhhqgirl/luci-app-onliner.git feeds/luci/applications/luci-app-onliner
+git clone https://github.com/nhhqgirl/luci-app-onliner.git package/luci-app-onliner
 
