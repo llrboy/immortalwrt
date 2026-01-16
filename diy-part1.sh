@@ -13,4 +13,4 @@
 # Uncomment a feed source
 # sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
-sed -i '$a src-git package https://github.com/xuanranran/openwrt-package' feeds.conf.default
+sed -i '$a src-git other https://github.com/xuanranran/openwrt-package' feeds.conf.default
