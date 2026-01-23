@@ -9,5 +9,6 @@
 # This is free software, licensed under the MIT License.
 # See /LICENSE for more information.
 #
+rm -rf feeds/luci/applications/luci-app-openclash
 
-
+clone_dir https://github.com/vernesong/OpenClash luci-app-openclash
