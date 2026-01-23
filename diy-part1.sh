@@ -10,10 +10,4 @@
 # See /LICENSE for more information.
 #
 
-# Uncomment a feed source
-# sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
-
-sed -i '$a src-gitvernesong https://github.com/vernesong/OpenClash' feeds.conf.default
-
-rm -rf feeds/luci/applications/luci-app-openclash
 
